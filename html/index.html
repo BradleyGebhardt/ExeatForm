@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Imports -->
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+
+  <!-- Stylsheet Links -->
+  <link rel="stylesheet/less" href="../css_less/index.less">
+  <link rel="stylesheet/less" href="../css_less/mediaQueries.less">
+
+  <!-- Script Links -->
+  <script type="text/javascript" src="..\javascript\less.min.js"></script>
+  <title>Junior Dorm Exeats</title>
+</head>
+
+<body>
+  <div class="header header--main" id="mainHeader">
+    <!-- [Header Placeholder] -->
+  </div>
+  <!-- The conatiner used to set up the grid -->
+  <div class="main-container">
+    <!-- Calendar -->
+    <div class="section calendar" id="calendarSection">
+      <div class="selector selector--month" id="month_btn">
+      </div>
+      <div class="list list--month" id="monthListContainer">
+        <ul id="listOfMonths">
+          <li class="item">a</li>
+        </ul>
+      </div>
+      <div class="dayHeaders">
+        <div class="dayName" id="day-name">SUN</div>
+        <div class="dayName" id="day-name">MON</div>
+        <div class="dayName" id="day-name">TUES</div>
+        <div class="dayName" id="day-name">WED</div>
+        <div class="dayName" id="day-name">THURS</div>
+        <div class="dayName" id="day-name">FRI</div>
+        <div class="dayName" id="day-name">SAT</div>
+      </div>
+      <!-- The days container -->
+      <div class="section calendar--days" id="calendar">
+      </div>
+    </div>
+    <!-- Events -->
+    <div class="section events" id="eventsSection">
+      <div class="selector slecector--createEvent" id="create_event">
+        Create Event
+      </div>
+      <div class="header header--event">
+        <div class="header header--events" id="eventsHeader">
+          <!-- Placeholder header -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="../javascript/dateHandler.js"></script>
+  <script type="text/javascript" src="../javascript/eventsHandler.js"></script>
+  <!-- End Scripts -->
+
+</body>
+
+</html>
